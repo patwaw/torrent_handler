@@ -5,7 +5,6 @@
 
 '''
 
-# TODO: Argument parsing
 # TODO: More automation with torrents
 # TODO: MIME type torrent add
 

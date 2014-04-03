@@ -16,6 +16,5 @@ Requirements
 
 TODO
 ============
-<p>Parsing arguments</p>
 <p>MIME type detector</p>
 <p>Automated handling of downloading torrents</p>

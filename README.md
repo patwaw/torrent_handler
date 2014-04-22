@@ -6,7 +6,7 @@ Trying to make torrents more automated and easier to use.
 
 Description
 ============
-<p>For now i am using transmission-remote backend to handle torrents but over time i want to outsource Transmission to torrent daemon i want to create.</p>
+<p>For now i am using transmission-remote backend to handle torrents but over time i want to outsource Transmission to libtorrent.</p>
 
 
 Requirements
@@ -17,5 +17,5 @@ Requirements
 
 TODO
 ============
-<p>MIME type detector</p>
-<p>Automated handling of downloading torrents</p>
+<p>TPB torrent search</p>
+<p>Automated handling of downloaded torrents</p>

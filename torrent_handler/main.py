@@ -6,7 +6,6 @@
 '''
 
 # TODO: More automation with torrents
-# TODO: MIME type torrent add
 
 import sys
 import argparse

@@ -12,9 +12,15 @@ import argparse
 import transmissionrpc
 
 class Torrent(object):
-    def __init__(self, host='localhost', port=9091):
-        self.host = host        
-        self.port = port        
+    def __init__(self, host, port):
+        if host != None:
+            self.host = host
+        else:
+            self.host = '127.0.0.1'
+        if port != None:
+            self.port = port
+        else:
+            self.port = 9091    
         try:
             self.client = transmissionrpc.Client(self.host, self.port)
         except:

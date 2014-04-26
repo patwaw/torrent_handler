@@ -17,6 +17,7 @@ class Search(object):
 		else:
 			self.domain = "https://thepiratebay.se"
 		self.tpb = TPB(self.domain)
+
 	def list_categories(self):
 		print """List of category codes:
 ALL - 0
@@ -203,7 +204,7 @@ TYPE:
 				print torrent.title, " - ", torrent.user
 				print "Seeders: ", torrent.seeders
 				print "Leechers: ", torrent.leechers
-				print torrent.magnet_link
+				print torrent.magnet_link, "\n"
 		sys.exit(0)
 
 if __name__ == '__main__':
